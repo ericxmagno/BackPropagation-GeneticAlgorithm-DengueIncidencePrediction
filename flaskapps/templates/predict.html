@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Thesis Dengue Prediction App</title>
+    <style>
+        * {
+            font-size:30px;
+        }
+    </style>
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:10;}
+        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 25px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 25px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+        .tg .tg-oe15{font-size:32px;background-color:#ffffff;border-color:#ffffff;text-align:left;vertical-align:top}
+        p {font-family:Arial, sans-serif;font-size:14px;}
+    </style>
+</head>
+<body>
+    <input id="json-selector" type="file">
+    <button id="predict-button">Predict</button>
+    <p>File Name: <span id="fname"></span></p>
+    <p style="font-weight:bold">Predictions</p>
+    <table class="tg">
+        <tr>
+          <th class="tg-oe15">Week</th>
+          <th style="text-align:center" class="tg-oe15">BP w/ <br>Gradiant Descent</th>
+          <th style="text-align:center" class="tg-oe15">BP w/ <br>Genetic Algorithm</th>
+          <th style="text-align:center" class="tg-oe15">GRNN</th>
+        </tr>
+        <tr>
+          <td class="tg-oe15">Week 1</td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="gd-week1-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="ga-week1-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="grnn-week1-prediction"></span></p></td>
+        </tr>
+        <tr>
+          <td class="tg-oe15">Week 2</td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="gd-week2-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="ga-week2-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="grnn-week2-prediction"></span></p></td>
+        </tr>
+        <tr>
+          <td class="tg-oe15">Week 3</td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="gd-week3-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="ga-week3-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="grnn-week3-prediction"></span></p></td>
+        </tr>
+        <tr>
+          <td class="tg-oe15">Week 4</td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="gd-week4-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="ga-week4-prediction"></span></p></td>
+          <td style="text-align:center" class="tg-oe15"><p><span id="grnn-week4-prediction"></span></p></td>
+        </tr>
+      </table>
+    
+    
+    
+    
+    <p>Expected: <span id="expected"></span></p>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        let predvars;
+        $(document).ready(function(){
+            $("#json-selector").change(onOpenChange);
+        });
+        function onOpenChange(e){
+            // var filePath = $("#json-selector").val();
+            // var startIndex = filePath.indexOf('\\') >= 0 ? filePath.lastIndexOf('\\') : filePath.lastIndexOf('/');
+            // var filename = filePath.substring(startIndex);
+            // if(filename.indexOf('\\') === 0 || filename.indexOf('/') === 0) {
+            //     filename = filename.substring(1);
+            // }
+            // console.log(filePath)
+            
+            var input = e.target;
+            var reader = new FileReader();
+            var filename;
+            
+            reader.onload = function(){
+                var dataURL = reader.result;
+                // var output = document.getElementById('output');
+                filename = dataURL;
+            };
+            reader.readAsDataURL(input.files[0]);
+            console.log(filename);
+
+            $.ajax({
+                url: filename,
+                success: onOpenLoad
+            });
+            $("#fname").text(filename);
+            $("#gd-week1-prediction").text("");
+            $("#gd-week2-prediction").text("");
+            $("#gd-week3-prediction").text("");
+            $("#gd-week4-prediction").text("");
+            $("#ga-week1-prediction").text("");
+            $("#ga-week2-prediction").text("");
+            $("#ga-week3-prediction").text("");
+            $("#ga-week4-prediction").text("");
+            $("#grnn-week1-prediction").text("");
+            $("#grnn-week2-prediction").text("");
+            $("#grnn-week3-prediction").text("");
+            $("#grnn-week4-prediction").text("");
+            $("#expected").text("");
+        }
+
+        function onOpenLoad(fileContent) {
+            var data = JSON.parse(JSON.stringify(fileContent));
+            predvars ={
+                cases1 : data.cases1,
+                cases2 : data.cases2,
+                cases3 : data.cases3,
+                cases4 : data.cases4,
+                cases5 : data.cases5,
+                cases6 : data.cases6,
+                cases7 : data.cases7,
+                rainfall11 : data.rainfall11,
+                rainfall13 : data.rainfall13,
+                tmax11 : data.tmax11,
+                tmax12 : data.tmax12,
+                tmin9 : data.tmin9,
+                tmin11 : data.tmin11,
+                tmean11 : data.tmean11,
+                tmean12 : data.tmean12,
+                rh5 : data.rh5,
+                rh3 : data.rh3,
+                rh4 : data.rh4,
+                wind_speed4 : data.wind_speed4,
+                wind_speed3 : data.wind_speed3,
+                wind_speed5: data.wind_speed5,
+                target: data.target
+            }
+        }
+
+        $("#predict-button").click(function(event){
+            let message = {
+                data : predvars
+            }
+            console.log(message);
+            // edit this
+            $.post("http://127.0.0.1:5000/predict", JSON.stringify(message), function(response){
+                $("#gd-week1-prediction").text(response.prediction.week1gd);
+                $("#gd-week2-prediction").text(response.prediction.week2gd);
+                $("#gd-week3-prediction").text(response.prediction.week3gd);
+                $("#gd-week4-prediction").text(response.prediction.week4gd);
+
+                $("#ga-week1-prediction").text(response.prediction.week1ga);
+                $("#ga-week2-prediction").text(response.prediction.week2ga);
+                $("#ga-week3-prediction").text(response.prediction.week3ga);
+                $("#ga-week4-prediction").text(response.prediction.week4ga);
+
+                $("#grnn-week1-prediction").text(response.prediction.week1grnn);
+                $("#grnn-week2-prediction").text(response.prediction.week2grnn);
+                $("#grnn-week3-prediction").text(response.prediction.week3grnn);
+                $("#grnn-week4-prediction").text(response.prediction.week4grnn);
+
+                $("#expected").text(response.prediction.expected);
+                console.log(response);
+            });
+        });
+
+    </script>
+</body>
+</html>

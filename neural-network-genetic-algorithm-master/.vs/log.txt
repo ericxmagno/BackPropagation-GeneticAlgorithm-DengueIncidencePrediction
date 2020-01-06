@@ -1,0 +1,210 @@
+10/04/2018 04:51:23 AM - INFO - ***Evolving 20 generations with population 100***
+10/04/2018 04:51:23 AM - INFO - ***Doing generation 1 of 20***
+10/04/2018 04:58:57 AM - INFO - Generation MSE average: 0.141509
+10/04/2018 04:58:57 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 04:58:57 AM - INFO - ***Doing generation 2 of 20***
+10/04/2018 05:04:10 AM - INFO - Generation MSE average: 0.116650
+10/04/2018 05:04:10 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:04:10 AM - INFO - ***Doing generation 3 of 20***
+10/04/2018 05:08:00 AM - INFO - Generation MSE average: 0.105781
+10/04/2018 05:08:00 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:08:00 AM - INFO - ***Doing generation 4 of 20***
+10/04/2018 05:12:12 AM - INFO - Generation MSE average: 0.099144
+10/04/2018 05:12:12 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:12:12 AM - INFO - ***Doing generation 5 of 20***
+10/04/2018 05:16:35 AM - INFO - Generation MSE average: 0.097761
+10/04/2018 05:16:35 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:16:35 AM - INFO - ***Doing generation 6 of 20***
+10/04/2018 05:21:49 AM - INFO - Generation MSE average: 0.094817
+10/04/2018 05:21:49 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:21:49 AM - INFO - ***Doing generation 7 of 20***
+10/04/2018 05:25:28 AM - INFO - Generation MSE average: 0.089877
+10/04/2018 05:25:28 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:25:28 AM - INFO - ***Doing generation 8 of 20***
+10/04/2018 05:30:45 AM - INFO - Generation MSE average: 0.091532
+10/04/2018 05:30:45 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:30:45 AM - INFO - ***Doing generation 9 of 20***
+10/04/2018 05:38:28 AM - INFO - Generation MSE average: 0.086180
+10/04/2018 05:38:28 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:38:28 AM - INFO - ***Doing generation 10 of 20***
+10/04/2018 05:43:13 AM - INFO - Generation MSE average: 0.084402
+10/04/2018 05:43:13 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:43:13 AM - INFO - ***Doing generation 11 of 20***
+10/04/2018 05:50:10 AM - INFO - Generation MSE average: 0.084672
+10/04/2018 05:50:10 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:50:10 AM - INFO - ***Doing generation 12 of 20***
+10/04/2018 05:59:31 AM - INFO - Generation MSE average: 0.081943
+10/04/2018 05:59:31 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 05:59:31 AM - INFO - ***Doing generation 13 of 20***
+10/04/2018 06:06:46 AM - INFO - Generation MSE average: 0.079701
+10/04/2018 06:06:46 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:06:46 AM - INFO - ***Doing generation 14 of 20***
+10/04/2018 06:12:54 AM - INFO - Generation MSE average: 0.080323
+10/04/2018 06:12:54 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:12:54 AM - INFO - ***Doing generation 15 of 20***
+10/04/2018 06:21:08 AM - INFO - Generation MSE average: 0.076972
+10/04/2018 06:21:08 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:21:08 AM - INFO - ***Doing generation 16 of 20***
+10/04/2018 06:26:46 AM - INFO - Generation MSE average: 0.077531
+10/04/2018 06:26:46 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:26:46 AM - INFO - ***Doing generation 17 of 20***
+10/04/2018 06:32:52 AM - INFO - Generation MSE average: 0.077224
+10/04/2018 06:32:52 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:32:52 AM - INFO - ***Doing generation 18 of 20***
+10/04/2018 06:40:25 AM - INFO - Generation MSE average: 0.079251
+10/04/2018 06:40:25 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:40:25 AM - INFO - ***Doing generation 19 of 20***
+10/04/2018 06:49:42 AM - INFO - Generation MSE average: 0.078493
+10/04/2018 06:49:42 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:49:42 AM - INFO - ***Doing generation 20 of 20***
+10/04/2018 06:57:33 AM - INFO - Generation MSE average: 0.077218
+10/04/2018 06:57:33 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:57:33 AM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:57:33 AM - INFO - {'nb_neurons': 1024, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'adam'}
+10/04/2018 06:57:33 AM - INFO - Generation 9
+10/04/2018 06:57:33 AM - INFO - Network RMSE: 0.065890
+10/04/2018 06:34:23 PM - INFO - ***Evolving 20 generations with population 100***
+10/04/2018 06:34:23 PM - INFO - ***Doing generation 1 of 20***
+10/04/2018 06:42:49 PM - INFO - Generation MSE average: 0.141369
+10/04/2018 06:42:49 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:42:49 PM - INFO - ***Doing generation 2 of 20***
+10/04/2018 06:46:41 PM - INFO - Generation MSE average: 0.108559
+10/04/2018 06:46:41 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:46:41 PM - INFO - ***Doing generation 3 of 20***
+10/04/2018 06:50:51 PM - INFO - Generation MSE average: 0.098602
+10/04/2018 06:50:51 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:50:51 PM - INFO - ***Doing generation 4 of 20***
+10/04/2018 06:55:19 PM - INFO - Generation MSE average: 0.092629
+10/04/2018 06:55:19 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:55:19 PM - INFO - ***Doing generation 5 of 20***
+10/04/2018 06:58:36 PM - INFO - Generation MSE average: 0.090202
+10/04/2018 06:58:36 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 06:58:36 PM - INFO - ***Doing generation 6 of 20***
+10/04/2018 07:02:00 PM - INFO - Generation MSE average: 0.089251
+10/04/2018 07:02:00 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:02:00 PM - INFO - ***Doing generation 7 of 20***
+10/04/2018 07:05:09 PM - INFO - Generation MSE average: 0.089540
+10/04/2018 07:05:09 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:05:09 PM - INFO - ***Doing generation 8 of 20***
+10/04/2018 07:08:17 PM - INFO - Generation MSE average: 0.088027
+10/04/2018 07:08:17 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:08:17 PM - INFO - ***Doing generation 9 of 20***
+10/04/2018 07:11:37 PM - INFO - Generation MSE average: 0.091754
+10/04/2018 07:11:37 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:11:37 PM - INFO - ***Doing generation 10 of 20***
+10/04/2018 07:15:18 PM - INFO - Generation MSE average: 0.086442
+10/04/2018 07:15:18 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:15:18 PM - INFO - ***Doing generation 11 of 20***
+10/04/2018 07:18:45 PM - INFO - Generation MSE average: 0.083929
+10/04/2018 07:18:45 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:18:45 PM - INFO - ***Doing generation 12 of 20***
+10/04/2018 07:21:26 PM - INFO - Generation MSE average: 0.083660
+10/04/2018 07:21:26 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:21:26 PM - INFO - ***Doing generation 13 of 20***
+10/04/2018 07:24:20 PM - INFO - Generation MSE average: 0.084809
+10/04/2018 07:24:20 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:24:20 PM - INFO - ***Doing generation 14 of 20***
+10/04/2018 07:27:24 PM - INFO - Generation MSE average: 0.086665
+10/04/2018 07:27:24 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:27:24 PM - INFO - ***Doing generation 15 of 20***
+10/04/2018 07:33:53 PM - INFO - Generation MSE average: 0.086227
+10/04/2018 07:33:53 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:33:53 PM - INFO - ***Doing generation 16 of 20***
+10/04/2018 07:41:14 PM - INFO - Generation MSE average: 0.082355
+10/04/2018 07:41:14 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:41:14 PM - INFO - ***Doing generation 17 of 20***
+10/04/2018 07:45:43 PM - INFO - Generation MSE average: 0.080039
+10/04/2018 07:45:43 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:45:43 PM - INFO - ***Doing generation 18 of 20***
+10/04/2018 07:54:47 PM - INFO - Generation MSE average: 0.080373
+10/04/2018 07:54:47 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 07:54:47 PM - INFO - ***Doing generation 19 of 20***
+10/04/2018 08:04:21 PM - INFO - Generation MSE average: 0.085684
+10/04/2018 08:04:21 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:04:21 PM - INFO - ***Doing generation 20 of 20***
+10/04/2018 08:10:55 PM - INFO - Generation MSE average: 0.083206
+10/04/2018 08:10:55 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:10:55 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:10:55 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 3, 'activation': 'tanh', 'optimizer': 'adam'}
+10/04/2018 08:10:55 PM - INFO - Generation 16
+10/04/2018 08:10:55 PM - INFO - Network RMSE: 0.067534
+10/04/2018 08:38:29 PM - INFO - ***Evolving 1 generations with population 5***
+10/04/2018 08:38:29 PM - INFO - ***Doing generation 1 of 1***
+10/04/2018 08:38:49 PM - INFO - Generation MSE average: 0.113034
+10/04/2018 08:38:49 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:38:49 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:38:49 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adadelta'}
+10/04/2018 08:38:49 PM - INFO - Generation 1
+10/04/2018 08:38:49 PM - INFO - Network RMSE: 0.089422
+10/04/2018 08:38:52 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adagrad'}
+10/04/2018 08:38:52 PM - INFO - Generation 1
+10/04/2018 08:38:52 PM - INFO - Network RMSE: 0.091597
+10/04/2018 08:38:55 PM - INFO - {'nb_neurons': 20, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'nadam'}
+10/04/2018 08:38:55 PM - INFO - Generation 1
+10/04/2018 08:38:55 PM - INFO - Network RMSE: 0.100515
+10/04/2018 08:38:59 PM - INFO - {'nb_neurons': 12, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+10/04/2018 08:38:59 PM - INFO - Generation 1
+10/04/2018 08:38:59 PM - INFO - Network RMSE: 0.118760
+10/04/2018 08:39:04 PM - INFO - {'nb_neurons': 28, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+10/04/2018 08:39:04 PM - INFO - Generation 1
+10/04/2018 08:39:04 PM - INFO - Network RMSE: 0.164876
+10/04/2018 08:40:16 PM - INFO - ***Evolving 1 generations with population 5***
+10/04/2018 08:40:16 PM - INFO - ***Doing generation 1 of 1***
+10/04/2018 08:40:37 PM - INFO - Generation MSE average: 0.113240
+10/04/2018 08:40:37 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:40:37 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:40:37 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adagrad'}
+10/04/2018 08:40:37 PM - INFO - Generation 1
+10/04/2018 08:40:37 PM - INFO - Network RMSE: 0.090924
+10/04/2018 08:40:40 PM - INFO - {'nb_neurons': 12, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+10/04/2018 08:40:40 PM - INFO - Generation 1
+10/04/2018 08:40:40 PM - INFO - Network RMSE: 0.093193
+10/04/2018 08:40:45 PM - INFO - {'nb_neurons': 20, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'nadam'}
+10/04/2018 08:40:45 PM - INFO - Generation 1
+10/04/2018 08:40:45 PM - INFO - Network RMSE: 0.101823
+10/04/2018 08:40:50 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adadelta'}
+10/04/2018 08:40:50 PM - INFO - Generation 1
+10/04/2018 08:40:50 PM - INFO - Network RMSE: 0.107079
+10/04/2018 08:40:53 PM - INFO - {'nb_neurons': 28, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+10/04/2018 08:40:53 PM - INFO - Generation 1
+10/04/2018 08:40:53 PM - INFO - Network RMSE: 0.173179
+10/04/2018 08:46:17 PM - INFO - ***Evolving 1 generations with population 5***
+10/04/2018 08:46:17 PM - INFO - ***Doing generation 1 of 1***
+10/04/2018 08:46:36 PM - INFO - Generation MSE average: 0.113059
+10/04/2018 08:46:36 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:46:36 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:46:36 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adadelta'}
+10/04/2018 08:46:36 PM - INFO - Generation 1
+10/04/2018 08:46:36 PM - INFO - Network RMSE: 0.089623
+10/04/2018 08:46:39 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adagrad'}
+10/04/2018 08:46:39 PM - INFO - Generation 1
+10/04/2018 08:46:39 PM - INFO - Network RMSE: 0.091511
+10/04/2018 08:46:42 PM - INFO - {'nb_neurons': 20, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'nadam'}
+10/04/2018 08:46:42 PM - INFO - Generation 1
+10/04/2018 08:46:42 PM - INFO - Network RMSE: 0.100577
+10/04/2018 08:46:47 PM - INFO - {'nb_neurons': 12, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+10/04/2018 08:46:47 PM - INFO - Generation 1
+10/04/2018 08:46:47 PM - INFO - Network RMSE: 0.118747
+10/04/2018 08:46:53 PM - INFO - {'nb_neurons': 28, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+10/04/2018 08:46:53 PM - INFO - Generation 1
+10/04/2018 08:46:53 PM - INFO - Network RMSE: 0.164839
+10/04/2018 08:48:00 PM - INFO - ***Evolving 1 generations with population 5***
+10/04/2018 08:48:00 PM - INFO - ***Doing generation 1 of 1***
+10/04/2018 08:48:21 PM - INFO - Generation MSE average: 0.113170
+10/04/2018 08:48:21 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:48:21 PM - INFO - --------------------------------------------------------------------------------
+10/04/2018 08:48:21 PM - INFO - {'nb_neurons': 1024, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adagrad'}
+10/04/2018 08:48:21 PM - INFO - Generation 1
+10/04/2018 08:48:21 PM - INFO - Network RMSE: 0.090929
+10/04/2018 08:48:23 PM - INFO - {'nb_neurons': 12, 'nb_layers': 1, 'activation': 'tanh', 'optimizer': 'adam'}
+10/04/2018 08:48:23 PM - INFO - Generation 1
+10/04/2018 08:48:23 PM - INFO - Network RMSE: 0.093206
+10/04/2018 08:48:27 PM - INFO - {'nb_neurons': 20, 'nb_layers': 2, 'activation': 'elu', 'optimizer': 'nadam'}
+10/04/2018 08:48:27 PM - INFO - Generation 1
+10/04/2018 08:48:27 PM - INFO - Network RMSE: 0.101741
+10/04/2018 08:48:32 PM - INFO - {'nb_neurons': 512, 'nb_layers': 1, 'activation': 'relu', 'optimizer': 'adadelta'}
+10/04/2018 08:48:32 PM - INFO - Generation 1
+10/04/2018 08:48:32 PM - INFO - Network RMSE: 0.106818
+10/04/2018 08:48:34 PM - INFO - {'nb_neurons': 28, 'nb_layers': 2, 'activation': 'sigmoid', 'optimizer': 'adam'}
+10/04/2018 08:48:34 PM - INFO - Generation 1
+10/04/2018 08:48:34 PM - INFO - Network RMSE: 0.173155
